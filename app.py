@@ -19,7 +19,7 @@ def get_status(y_pred_cycle ):
   
 @app.route('/')
 def home():
-    return render_template( 'index.html')
+    return render_template( 'index2.html')
  
 @app.route('/predict', methods=['POST'])
 def predict():
